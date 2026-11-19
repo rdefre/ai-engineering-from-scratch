@@ -3,7 +3,7 @@
 > प्रत्येक आवाज एजेंट दो निर्णयों पर रहता है या मर जाता हैः क्या उपयोगकर्ता अभी बोल रहा है, और क्या वे कर रहे हैं? VAD पहले का जवाब देता है। टर्न डिटेक्शन (VAD + मौन-हंगावर + अर्थपूर्ण एंडपॉइंट मॉडल) दूसरे का जवाब देता है। या तो गलत हो जाओ और आपका सहायक या तो उपयोगकर्ताओं को काटता है या कभी चुप नहीं होता है।
 
 **Type:** Build
-**Languages:** Python
+**Languages:** Python, TypeScript
 **Prerequisites:** Phase 6 · 11 (Real-Time Audio), Phase 6 · 12 (Voice Assistant)
 **Time:** ~45 minutes
 
@@ -170,7 +170,7 @@ STT (क्यूटाई, डीपग्राम, असेंबलीए�
 ## आगे पढ़ना
 
 - [Silero VAD](https://github.com/snakers4/silero-vad) संदर्भ खुला VAD।
-- [Picovoice Cobra VAD](https://picovoice.ai/products/cobra/) वाणिज्यिक सटीकता के लिए अग्रणी।
+- [Picovoice Cobra VAD](https://picovoice.ai/products/voice/voice-activity-detection/) वाणिज्यिक सटीकता के लिए अग्रणी।
 - [Kyutai — Unmute + flush trick](https://kyutai.org/stt) sub-200 ms इंजीनियरिंग ट्रिक।
 - [LiveKit — turn detection](https://docs.livekit.io/agents/logic/turns/) उत्पादन में अर्थिक अंतनिर्देश।
 - [WebRTC VAD](https://webrtc.googlesource.com/src/) विरासत आधार रेखा।

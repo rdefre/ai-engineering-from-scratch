@@ -3,7 +3,7 @@
 > 2026 संगीत पीढ़ीः Suno v5 और Udio v4 वाणिज्यिक पर हावी हैं; MusicGen, Stable Audio Open, और ACE-Step ओपन-सोर्स का नेतृत्व करते हैं। तकनीकी समस्या ज्यादातर हल हो गई है। कानूनी समस्या (वॉर्नर म्यूजिक $ 500M निपटान, UMG निपटान) ने 2025-2026 में क्षेत्र को फिर से आकार दिया।
 
 **Type:** Build
-**Languages:** Python
+**Languages:** Python, TypeScript
 **Prerequisites:** Phase 6 · 02 (Spectrograms), Phase 4 · 10 (Diffusion Models)
 **Time:** ~75 minutes
 
@@ -169,4 +169,4 @@ music = musicgen.generate([description], duration=30)
 - [ACE-Step](https://github.com/ace-step/ACE-Step) 4B फुल-सिंग जनरेटर, अप्रैल 2026 खोलें।
 - [Suno v5 platform docs](https://suno.com) वाणिज्यिक गुणवत्ता के नेता।
 - [AudioLDM2](https://arxiv.org/abs/2308.05734) संगीत + ध्वनि प्रभाव के लिए लटेंट विसारण।
-- [WMG-Suno settlement coverage](https://www.musicbusinessworldwide.com/suno-warner-music-settlement/) नवंबर 2025 पूर्वानुमान।
+- [WMG-Suno settlement coverage](https://www.musicbusinessworldwide.com/warner-music-group-settles-with-suno-strikes-first-of-its-kind-deal-with-ai-song-generator/) नवंबर 2025 पूर्वानुमान।
