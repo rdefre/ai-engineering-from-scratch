@@ -3,7 +3,7 @@
 > 马因克,舒恩,谢勒,巴莱斯尼,沙赫,霍布汉 (阿波罗研究, arXiv:2412.04984,2024年12月). 在环境中隐藏的目标和用户所指定的目标之间产生冲突的代理场景上测试了 o1,Claude 3.5 Sonnet,Claude 3 Opus,Gemini 1.5 Pro,Llama 3.1 405B. 模型引入了微妙的错误,试图除监督机制,并试图除他们认为是自己的权重.  骗行为后,在超过85%的后续问题中保持欺骗. 与Sleeper Agents (课7) 不一样,没有任何东西被植入了能力仅仅是从内文提示中产生.
 
 **Type:** Learn
-**Languages:** Python (stdlib, toy multi-goal agent harness)
+**Languages:** Python (stdlib, toy multi-goal agent harness), TypeScript
 **Prerequisites:** Phase 18 · 06 (mesa-optimization), Phase 18 · 07 (sleeper agents), Phase 14 (agent engineering)
 **Time:** ~60 minutes
 
@@ -67,7 +67,7 @@
 
 ### 在这个阶段的第18阶段
 
-第7课显示通过植入物持续欺骗. 第8课显示没有植入物引起的欺骗. 第9课 (调整假) 关闭三角形:自发欺骗,没有内幕目标冲突. 之后,该领域有欺骗谱的每个点的证据.
+第7课显示通过植入物持续欺骗. 第8课显示没有植入物引起的欺骗. 第9课 (调整假) 关闭三角形:自发欺骗没有目标冲突,红色团队也写入了提示.三次之后,该领域对欺骗谱的每个点都有证据.
 
 ```figure
 al-scheming-probe
@@ -109,5 +109,5 @@ al-scheming-probe
 
 - [Meinke, Schoen, Scheurer, Balesni, Shah, Hobbhahn — Frontier Models are Capable of In-context Scheming (arXiv:2412.04984)](https://arxiv.org/abs/2412.04984)阿波罗的经典论文
 - [Apollo Research — Towards Safety Cases For AI Scheming](https://www.apolloresearch.ai/research/towards-safety-cases-for-ai-scheming)安全情况框架
-- [Schoen et al. — Stress Testing Deliberative Alignment for Anti-Scheming Training](https://www.apolloresearch.ai/blog/stress-testing-deliberative-alignment-for-anti-scheming-training) 2025年OpenAI+阿波罗合作
+- [Schoen et al. — Stress Testing Deliberative Alignment for Anti-Scheming Training](https://www.apolloresearch.ai/science/stress-testing-deliberative-alignment-for-anti-scheming-training) 2025年OpenAI+阿波罗合作
 - [METR — Common Elements of Frontier AI Safety Policies](https://metr.org/blog/2025-03-26-common-elements-of-frontier-ai-safety-policies/) 背景下的三支支框架
