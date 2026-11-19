@@ -3,7 +3,7 @@
 > 俄罗斯国家安全政策3.0将于2026年2月24日生效,取代2023年政策. 两层减轻:安特罗皮克将单方面做什么,而不是作为整个行业的建议 (包括RAND SL-4安全标准). 增加边境安全路线图和风险报告作为常规文件,而不是一次性交付. 减少2023年的暂停承诺. 引入AI研发4门:一旦过渡,人类必须发布确认的案例,确定错误排列风险和减轻. 克劳德·奥普斯4.6不过了. 安特罗皮克在3.0的公告中表示",自信地排除这一点变得困难".SaferAI评价了2023年的RSP为2.2;他们将3.0降级为1.9,将安特罗皮克与OpenAI和DeepMind一起列入"弱"RSP类别. 质量值取代了2023年的量化承诺;取消暂停条款是最严重的回归.
 
 **Type:** Learn
-**Languages:** Python (stdlib, RSP threshold decision engine)
+**Languages:** Python (stdlib, RSP threshold decision engine), TypeScript
 **Prerequisites:** Phase 15 · 06 (AAR), Phase 15 · 07 (RSI)
 **Time:** ~45 minutes
 
@@ -100,6 +100,6 @@ a5-rsp-ladder
 
 - [Anthropic — Responsible Scaling Policy v3.0](https://anthropic.com/responsible-scaling-policy/rsp-v3-0)全32页的政策.
 - [Anthropic — RSP v3.0 announcement](https://www.anthropic.com/news/responsible-scaling-policy-v3)从v2的变化总结.
-- [Anthropic — Frontier Safety Roadmap](https://www.anthropic.com/research/frontier-safety)从RSP3.0链接的常规文件.
-- [Anthropic — Risk Report: Claude Opus 4.6](https://www.anthropic.com/research/risk-report-claude-opus-4-6)回顾目前的边境模式.
+- [Anthropic — Frontier Safety Roadmap](https://www.anthropic.com/responsible-scaling-policy/roadmap)从RSP3.0链接的常规文件.
+- [Anthropic — Risk Report: February 2026](https://www.anthropic.com/feb-2026-risk-report)关于克劳德·奥普斯4.6的回顾,这是它出版时的边界模型.
 - [Anthropic — Measuring agent autonomy in practice](https://www.anthropic.com/research/measuring-agent-autonomy)将AI研发-4与测量自主化连接起来.
