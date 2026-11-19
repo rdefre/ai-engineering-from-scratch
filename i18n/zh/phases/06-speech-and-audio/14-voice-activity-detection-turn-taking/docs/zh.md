@@ -3,7 +3,7 @@
 > 每个语音代理都根据两个决定生活或死亡:用户现在在说话,他们已经完成了吗?VAD回答第一个.转发检测 (VAD +沉默-置 +语义终点模型) 回答第二个.要么错误,你的助理要么关闭用户,要么永远不关闭嘴.
 
 **Type:** Build
-**Languages:** Python
+**Languages:** Python, TypeScript
 **Prerequisites:** Phase 6 · 11 (Real-Time Audio), Phase 6 · 12 (Voice Assistant)
 **Time:** ~45 minutes
 
@@ -170,7 +170,7 @@ def flush_on_end(stt_client, audio_buffer):
 ## 进一步阅读
 
 - [Silero VAD](https://github.com/snakers4/silero-vad) 参考开放的VAD.
-- [Picovoice Cobra VAD](https://picovoice.ai/products/cobra/)商业精度领先者.
+- [Picovoice Cobra VAD](https://picovoice.ai/products/voice/voice-activity-detection/)商业精度领先者.
 - [Kyutai — Unmute + flush trick](https://kyutai.org/stt)200ms下级工程技巧.
 - [LiveKit — turn detection](https://docs.livekit.io/agents/logic/turns/)生产中的语义终点.
 - [WebRTC VAD](https://webrtc.googlesource.com/src/)遗产基线.

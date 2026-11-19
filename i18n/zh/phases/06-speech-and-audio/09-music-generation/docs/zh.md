@@ -3,7 +3,7 @@
 > 2026年音乐代:Suno v5和Udio v4占据商业主导地位; MusicGen,Stable Audio Open和 ACE-Step引领开源.技术问题大多得到解决.法律问题 (Warner Music 500M美元和解,UMG和解) 在2025-2026年重新塑造了该领域.
 
 **Type:** Build
-**Languages:** Python
+**Languages:** Python, TypeScript
 **Prerequisites:** Phase 6 · 02 (Spectrograms), Phase 4 · 10 (Diffusion Models)
 **Time:** ~75 minutes
 
@@ -169,4 +169,4 @@ music = musicgen.generate([description], duration=30)
 - [ACE-Step](https://github.com/ace-step/ACE-Step)开放4B全歌发电机,2026年4月.
 - [Suno v5 platform docs](https://suno.com)商业质量领导者.
 - [AudioLDM2](https://arxiv.org/abs/2308.05734) 音乐+音效的隐藏传播.
-- [WMG-Suno settlement coverage](https://www.musicbusinessworldwide.com/suno-warner-music-settlement/)2025年11月前例.
+- [WMG-Suno settlement coverage](https://www.musicbusinessworldwide.com/warner-music-group-settles-with-suno-strikes-first-of-its-kind-deal-with-ai-song-generator/)2025年11月前例.
