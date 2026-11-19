@@ -3,7 +3,7 @@
 > 3D वह मोडेलिटी है जहां 2D-to-3D लीवरेज सबसे मजबूत है। 2023 का सफलता 3D गैसियन स्प्लेटिंग था। 2024-2026 के लिए जनरेटिव पुश लेयर मल्टी-व्यू डिफ्यूजन + 3D पुनर्निर्माण शीर्ष पर एक एकल प्रॉम्प्ट या फोटो से वस्तुओं और दृश्यों का उत्पादन करने के लिए।
 
 **Type:** Learn
-**Languages:** Python
+**Languages:** Python, TypeScript
 **Prerequisites:** Phase 4 (Vision), Phase 8 · 07 (Latent Diffusion)
 **Time:** ~45 minutes
 
@@ -164,4 +164,4 @@ for step in range(steps):
 - [Shi et al. (2023). MVDream](https://arxiv.org/abs/2308.16512) बहु दृश्य प्रसार।
 - [Hong et al. (2023). LRM: Large Reconstruction Model for Single Image to 3D](https://arxiv.org/abs/2311.04400) एलआरएम।
 - [Gao et al. (2024). CAT3D: Create Anything in 3D with Multi-View Diffusion Models](https://arxiv.org/abs/2405.10314) CAT3D.
-- [Stability AI (2024). Stable Video 3D (SV3D)](https://stability.ai/research/sv3d) SV3D.
+- [Stability AI (2024). Stable Video 3D (SV3D)](https://stability.ai/research/sv3d-novel-multi-view-synthesis-and-3d-generation-from-a-single-image-using-latent-video-diffusion) SV3D.

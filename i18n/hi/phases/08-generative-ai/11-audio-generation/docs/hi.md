@@ -3,7 +3,7 @@
 > ऑडियो 16-48 kHz पर 1-डी सिग्नल है। पांच सेकंड का क्लिप 80-240k नमूने है। कोई ट्रांसफार्मर सीधे उस अनुक्रम का पालन नहीं करता है। 2026 में प्रत्येक उत्पादन ऑडियो मॉडल के लिए समाधान समान हैः एक तंत्रिका कोडक (Encodec, SoundStream, DAC) 50-75 Hz पर ऑडियो को अलग टोकन में संपीड़ित करता है, और एक ट्रांसफार्मर या विसारण मॉडल टोकन उत्पन्न करता है।
 
 **Type:** Build
-**Languages:** Python
+**Languages:** Python, TypeScript
 **Prerequisites:** Phase 6 · 02 (Audio Features), Phase 6 · 04 (ASR), Phase 8 · 06 (DDPM)
 **Time:** ~45 minutes
 
@@ -145,4 +145,4 @@ def make_tokens(style, length, vocab_size, rng):
 - [Wang et al. (2023). Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers (VALL-E)](https://arxiv.org/abs/2301.02111) वॉल-ई.
 - [Copet et al. (2023). Simple and Controllable Music Generation (MusicGen)](https://arxiv.org/abs/2306.05284) संगीतGen.
 - [Liu et al. (2023). AudioLDM 2: Learning Holistic Audio Generation with Self-supervised Pretraining](https://arxiv.org/abs/2308.05734) ऑडियोएलडीएम 2.
-- [Stability AI (2024). Stable Audio 2.5](https://stability.ai/news/introducing-stable-audio-2-5) 2025 प्रवाह मिलान के साथ पाठ-संगीत।
+- [Stability AI (2025). Stable Audio 2.5](https://stability.ai/news-updates/stability-ai-introduces-stable-audio-25-the-first-audio-model-built-for-enterprise-sound-production-at-scale) 2025 प्रवाह मिलान के साथ पाठ-संगीत।
