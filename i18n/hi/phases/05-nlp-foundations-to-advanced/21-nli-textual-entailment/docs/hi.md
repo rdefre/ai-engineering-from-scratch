@@ -3,7 +3,7 @@
 > "t entails h" का अर्थ है कि मानव रीडिंग t के अनुसार h सही है। NLI का उद्देश्य निष्कर्षण / विरोधाभास / तटस्थता की भविष्यवाणी करना है। सतह पर बोरिंग, उत्पादन में भार सहन करना।
 
 **Type:** Learn
-**Languages:** Python
+**Languages:** Python, TypeScript
 **Prerequisites:** Phase 5 · 05 (Sentiment Analysis), Phase 5 · 13 (Question Answering)
 **Time:** ~60 minutes
 
@@ -71,7 +71,7 @@ print(result)
 #  {'label': 'contradiction', 'score': 0.01}]
 ```
 
-उत्पादन एनएलआई के लिए, `facebook/bart-large-mnli`और `microsoft/deberta-v3-large-mnli`DeBERTa-v3 शीर्ष रैंकिंग बोर्डों में है।
+उत्पादन एनएलआई के लिए, `facebook/bart-large-mnli`और `MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli`DeBERTa-v3 शीर्ष रैंकिंग बोर्डों में है।
 
 ### चरण 2: शून्य शॉट वर्गीकरण
 
@@ -118,7 +118,7 @@ def is_faithful(answer, context, threshold=0.5):
 
 | Use case | Model |
 |---------|-------|
-| General-purpose NLI | `microsoft/deberta-v3-large-mnli` |
+| General-purpose NLI | `MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli` |
 | Fast / edge | `cross-encoder/nli-deberta-v3-base` |
 | Zero-shot classification (lightweight) | `facebook/bart-large-mnli` |
 | Document-level NLI | `MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli` |
