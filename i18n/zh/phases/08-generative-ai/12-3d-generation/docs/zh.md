@@ -3,7 +3,7 @@
 > 3D是2D到3D杆最强的模式. 2023年的突破是3D高斯分光. 2024-2026年生成的推层多视觉扩散 + 3D重建在顶部以从单个提示或照片中产生物体和场景.
 
 **Type:** Learn
-**Languages:** Python
+**Languages:** Python, TypeScript
 **Prerequisites:** Phase 4 (Vision), Phase 8 · 07 (Latent Diffusion)
 **Time:** ~45 minutes
 
@@ -164,4 +164,4 @@ for step in range(steps):
 - [Shi et al. (2023). MVDream](https://arxiv.org/abs/2308.16512)多视图传播.
 - [Hong et al. (2023). LRM: Large Reconstruction Model for Single Image to 3D](https://arxiv.org/abs/2311.04400) LRM
 - [Gao et al. (2024). CAT3D: Create Anything in 3D with Multi-View Diffusion Models](https://arxiv.org/abs/2405.10314) CAT3D.
-- [Stability AI (2024). Stable Video 3D (SV3D)](https://stability.ai/research/sv3d) SV3D.
+- [Stability AI (2024). Stable Video 3D (SV3D)](https://stability.ai/research/sv3d-novel-multi-view-synthesis-and-3d-generation-from-a-single-image-using-latent-video-diffusion) SV3D.
